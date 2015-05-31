@@ -18,3 +18,4 @@
 .DS_Store
 
 # Ignore s3_sync credentials
+.s3_sync
