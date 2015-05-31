@@ -77,7 +77,7 @@ end
 
 
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket                     = 'my.bucket.com' # The name of the S3 bucket you are targetting. This is globally unique.
+  s3_sync.bucket                     = 'morebacon.com.s3-website-us-east-1.amazonaws.com' # The name of the S3 bucket you are targetting. This is globally unique.
   s3_sync.region                     = 'us-west-1'     # The AWS region for your bucket.
   s3_sync.aws_access_key_id          = 'AWS KEY ID'
   s3_sync.aws_secret_access_key      = 'AWS SECRET KEY'
