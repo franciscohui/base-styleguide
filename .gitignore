@@ -19,6 +19,8 @@
 
 # Ignore s3_sync credentials
 .s3_sync.yaml
+.s3_sync.yml
+.s3_sync
 
 # Ignore config.rb file for now
-config.rb
+.config.rb
