@@ -24,3 +24,6 @@
 
 # Ignore config.rb file for now
 .config.rb
+
+# Ignore design files
+/design
