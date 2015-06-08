@@ -66,4 +66,21 @@ ul.learning-log{
 	  text-align: right;
 	}
 }
-
+ul#nav {
+	display: block;
+	width: 100%;
+	margin: auto;
+  box-shadow: 0 0 1px rgba(0,0,0,0.15);
+	li{
+		display: inline-block;
+		a{
+			display: inline-block;
+			padding: 1.0em 1.25em;
+			&:hover{
+				color: white;
+				background-color: $links-hover;
+				text-decoration: none;
+			};
+		}
+	}
+}
