@@ -1,0 +1,38 @@
+$canvas: #FFFFFF;
+$cell: #FFFFFF;
+/*$cell: #CFECF5;*/
+$cell-border: darken($cell, 10%);
+$cell-hover: darken($cell, 5%);
+$cell-active: darken($cell, 10%);
+
+body{
+	background-color: $canvas;
+}
+.content-wrapper{
+	display: flex;
+}
+.column, .column-add{	
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	flex-grow: 10;
+  height: 100%;
+	background-color: $cell;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+	&:hover{
+/*		background-color: $cell-hover;*/
+	};
+}
+.column-add{
+	flex-grow: 1;
+	opacity: 0.1;
+	transition: all 0.1s ease-out;
+	&:hover{
+		opacity: 1.0;
+		background-color: $cell-hover;
+	};
+	&:active{
+		background-color: $cell-active;
+	};
+}

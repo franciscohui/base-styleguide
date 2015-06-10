@@ -6,6 +6,7 @@ $text-primary: rgba(0, 0, 0, 0.8);
 $text-secondary: rgba(0, 0, 0, 0.4); /*half opacity to primary*/
 $links: rgba(0, 116, 191, 1.0);
 $links-hover: rgba(23, 82, 121, 1.0);
+$border: rgba(0, 0, 0, 0.05);
 
 
 body{
@@ -70,7 +71,7 @@ ul#nav {
 	display: block;
 	width: 100%;
 	margin: auto;
-  box-shadow: 0 0 1px rgba(0,0,0,0.15);
+	border-bottom: 1px solid $border;
 	li{
 		display: inline-block;
 		a{

@@ -1,0 +1,17 @@
+---
+layout: split
+---
+
+.column{contentEditable: "true"}
+	%p
+		Hello
+.column-add
+	+
+.column{contentEditable: "true"}
+	%p
+		there
+.column-add
+	+
+
+/ 2015.06.09 23:11
+/ How do you detect clicks on new html elements appended into the page? After adding a div, clicking on it doesn't capture the user input. Look into .trigger() http://api.jquery.com/trigger/#eventdata Making the content editable (https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable)
