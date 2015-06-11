@@ -85,3 +85,32 @@ ul#nav {
 		}
 	}
 }
+/*Style for Bookmarks*/
+/*a{
+	color: #0074bf;
+  text-decoration: none;
+  line-height: 1.5em;
+  overflow: hidden;
+  display: block;
+  width: 700px;
+
+}
+*/
+.highlight{
+	background-color: rgb(234, 234, 234);
+	display: flex;
+	flex-flow: row;
+  margin-bottom: 1px;
+  padding: .25em 1em;
+	.timestamp{
+		font-size: 10px;
+		color: silver;
+		width: 200px;
+		display: block;
+		flex-grow: 1;
+	}
+	.content{
+		display: block;
+		width: 480px;
+	}
+}
