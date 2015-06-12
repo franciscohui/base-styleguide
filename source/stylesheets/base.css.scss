@@ -8,6 +8,9 @@ $links: rgba(0, 116, 191, 1.0);
 $links-hover: rgba(23, 82, 121, 1.0);
 $border: rgba(0, 0, 0, 0.05);
 
+html{
+	box-sizing: border-box;
+}
 
 body{
 	background-color: $background;
@@ -101,16 +104,40 @@ ul#nav {
 	display: flex;
 	flex-flow: row;
   margin-bottom: 1px;
-  padding: .25em 1em;
-	.timestamp{
+  padding: 1em;
+  p{
+  	margin: 0;
+  }
+	.location{
+		display: block;
+		max-width: 50px;
 		font-size: 10px;
 		color: silver;
-		width: 200px;
-		display: block;
-		flex-grow: 1;
+		margin-right: 20px;
 	}
 	.content{
 		display: block;
 		width: 480px;
+	}
+}
+
+@media only screen and (max-width : 640px){
+	h1{
+		font-size: 2em;
+		line-height: 1em;
+	}
+	.content-wrapper{
+		width: 95%;
+	}
+	.highlight{
+		display: block;
+		.location{
+			max-width: 100%;
+			margin-right: 0;
+			margin-bottom: 5px;
+		}
+		.content{
+			width: 100%;
+		}
 	}
 }
