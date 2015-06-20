@@ -147,14 +147,21 @@ ul#nav {
 
 /* KINDLE */
 .kindle-resolution{
+	font-size: 18px;
 	display: block;
 	background-color: silver;
-	width: 768px;
-	height: 1024px;
+	width: 758px;
+	height: 899px;
 	.kindle-viewport{
 		background-color: gray;
 		display: block;
-		width: 758px;
-		height: 899px;	
+		width: 738px;
+		height: 879px;
+		.inner-3{
+			display: block;
+			background-color: white;
+			width: 718px;
+			height: 859px;
+		}
 	}
 }
