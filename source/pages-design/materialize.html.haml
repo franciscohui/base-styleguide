@@ -1,0 +1,18 @@
+---
+layout: materialize
+---
+
+%ul#dropdown2.dropdown-content
+  %li
+    %a{:href => "#!"}
+      one
+      %span.badge 1
+  %li
+    %a{:href => "#!"}
+      two
+      %span.new.badge 1
+  %li
+    %a{:href => "#!"} three
+%a.btn.dropdown-button{"data-activates" => "dropdown2", :href => "#!"}
+  Dropdown
+  %i.mdi-navigation-arrow-drop-down.right

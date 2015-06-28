@@ -39,16 +39,19 @@ Problem: Too many changelogs
 		- Change Log and resources	
 
 ---
-### Books
+### Books & Tutorials
 - [Eloquent Javascript](http://eloquentjavascript.net)
 - [JavaScript & jQuery Book](http://javascriptbook.com)
 - [Beginning JavaScript](http://www.amazon.com/Beginning-JavaScript-Paul-Wilton-ebook/dp/B00DBOORJW)
+- [Framer JS beyond the basics](http://www.stakelon.com/framerworkshop/index.html#/3)
+- [Framer CodePen examples](http://codepen.io/collection/nRzzaZ/7)
 
 ### API
 - [jQuery on click](https://api.jquery.com/click)
 - [Pinboard feed tutorial](http://acrl.ala.org/techconnect/?p=2037) 
 - [Pinboard API reference](https://pinboard.in/howto/#rss) 
 - [Personal Resume API](https://github.com/afeld/api.afeld.me)
+- [IFTTT Maker Channel](https://ifttt.com/maker)
 
 ### Mentors & Resources
 - [Get a Code Mentor for on the monthly plan](https://www.codementor.io/monthly)

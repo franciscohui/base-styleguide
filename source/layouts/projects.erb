@@ -1,12 +1,12 @@
-<!doctype html>
 <html>
   <head>
     <!-- DEFAULT HEADER _head.erb -->
-    <%= partial "layouts/partials/header" %>
+    <%= partial "layouts/partials/projects" %>
   </head>
   
   <body class="<%= page_classes %>">
-  	<%= partial "layouts/partials/nav" %>
+  	<div class="content-wrapper">
 		<%= yield %>
+		</div>
   </body>
 </html>
